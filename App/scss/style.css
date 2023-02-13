@@ -530,6 +530,13 @@ button:hover, .button:hover {
   padding: 2.5rem;
   text-align: center;
 }
+.footer .get-link {
+  margin: 20px 0 0 0;
+  display: block;
+}
+.footer .get-link a {
+  text-decoration: underline;
+}
 @media (min-width: 64em) {
   .footer .container {
     display: grid;

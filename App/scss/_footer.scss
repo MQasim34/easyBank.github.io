@@ -4,6 +4,14 @@
     padding: 2.5rem;
     text-align: center;
 
+    .get-link{
+        margin: 20px 0 0 0;
+        display: block;
+    }
+    .get-link a{
+        text-decoration: underline;
+    }
+
     .container{
         @include breakpoint-up(large){
             display: grid;
